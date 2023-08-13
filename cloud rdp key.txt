@@ -1,0 +1,25 @@
+docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 6060:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 6080:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 3030:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 4444:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 7080:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 7020:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 7030:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 7010:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -p 7040:80 dorowu/ubuntu-desktop-lxde-vnc
+
+Port: 6070
+
+https://cloud.google.com/
+
+
+
+
+curl -X POST “https://api.cloudflare.com/client/v4/user/firewall/access _
+rules/rules” \
+ -H “X-Auth-Email: hello@example.com” \
+ -H “X-Auth-Key: 0000000000000000000” \
+ -H “Content-Type: application/json” \
+ --data
+‘{“mode”:”block”,”configuration”:{“target”:”ip”,”value”:”192.0.2.1”}}’
